@@ -14,5 +14,5 @@
 
 ## 工具
 
-- [Git]([https://github.com/huzhengxing/technology-stack/tree/master/%E5%B7%A5%E5%85%B7](https://github.com/huzhengxing/technology-stack/tree/master/工具))
+- [Git](https://github.com/huzhengxing/technology-stack/blob/master/工具/Git.md)
 
