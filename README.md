@@ -2,7 +2,7 @@
 
 ## 编程语言
 
-## 数据结构
+## [数据结构](https://github.com/huzhengxing/data-structure)
 
 ## 算法
 
