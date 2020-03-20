@@ -47,24 +47,20 @@ tar -xvf FastDFS_v5.08.tar.gz
 
 
 2. 修改配置文件部分配置
-    	`vim tracker.conf`
+     `vim tracker.conf`
 
-    ```shell
-    # 数据日志保存路径
-    base_path=/var/fdfs/tracker
-    ```
+     ```shell
+     # 数据日志保存路径
+     base_path=/var/fdfs/tracker
+     ```
 
-    **注意** ：
-
-    - 设置的日志保存路径必须要存在，负责启动不成功。
+     **注意** ：设置的日志保存路径必须要存在，负责启动不成功。
 
 3. 启动tracker
 
      `service fdfs_trackerd start`
 
-     **注意** ：
-
-     - 提示启动ok不一定启动成功，需要通过查看端口22122端fdfs_trackerd服务器是否启动。
+     **注意** ：提示启动ok不一定启动成功，需要通过查看端口22122端fdfs_trackerd服务器是否启动。
 
 4. 查看启动
     	
@@ -130,7 +126,7 @@ tar -xvf FastDFS_v5.08.tar.gz
 ## 4.2 添加配置
 1. yml文件中添加配置
 	
-			```yaml
+```
 	fdfs:
 			  # 连接Tracker服务器超时时间
 			  connect-timeout: 10000
@@ -142,10 +138,10 @@ tar -xvf FastDFS_v5.08.tar.gz
 			  pool:
 			  	# 这句必须加，不然会启动宝座
 		    jmx-enabled: false
-	```
-	
-	
-	
+```
+
+
+​	
 2.  启动类添加
 			
 	```java
@@ -204,22 +200,20 @@ wagger测试，返回路径，则成功，现在是不能直接访问图片，�
 ## 5.1 安装fastdfs-nginx-module
 1. 进入安装目录，解压
 	
-		```shell
+		```
 	tar -xvf fastdfs-nginx-module_v1.16.tar.gz
 	```
-```
-	
-	
 	
 2. 配置config
 
-    ```shell
+    ```
     cd /fastdfs-nginx-module/src/
-    # 修改配置
-    vim config
-    # 执行下面命令（将配置中的/usr/local改为/usr）：
-    :%s+/usr/local/+/usr/+g
-```
+        # 修改配置
+        vim config
+        # 执行下面命令（将配置中的/usr/local改为/usr）：
+        :%s+/usr/local/+/usr/+g
+    ```
+
 
 3. 配置mod_fastdfs.conf			
 
@@ -254,37 +248,37 @@ wagger测试，返回路径，则成功，现在是不能直接访问图片，�
 ## 5.2 安装Nignx
 1. 进入Nginx所在目录，解压
 	
-		```shell
+		```
 	tar -xvf nginx-1.10.0.tar.gz
 	```
 	
 2. 配置
 
-    ```shell
+    ```
     //如果没有安装prec 则需要安装
     yum -y install pcre pcre-devel zlib zlib-devel openssl openssl-devel
     ```
 
-    ```shell
+    ```
     ./configure --prefix=/opt/nginx --sbin-path=/usr/bin/nginx --add-module=/usr/local/fastdfs-nginx-module/src
     ```
 
 3. 编译安装
 
-    ```shell
+    ```
     make && sudo make install
     ```
 
 4. 修改配置文件
 
-    ```shell
+    ```
     #编辑配置文件
     vim  /opt/nginx/conf/nginx.conf
     ```
 
     把配置改成如下，端口必须和`storage.conf`，里面配置的`http.server_port`一样
     	
-    ```xml
+    ```
     server {
         listen       8888;
         server_name  localhost;
