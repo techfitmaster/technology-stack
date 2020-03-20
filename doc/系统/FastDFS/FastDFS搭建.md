@@ -78,7 +78,7 @@ tar -xvf FastDFS_v5.08.tar.gz
 	`cp storage.conf.sample storage.conf`
 	
 2. 修改配置
-    	
+     	
     `vim storage.conf`
     	
 
@@ -93,9 +93,7 @@ tar -xvf FastDFS_v5.08.tar.gz
     tracker_server=127.0.0.1:22122
     ```
 
-    **注意** ：
-
-    - 设置的文件保存路径必须要存在，负责启动不成功。
+    **注意** ：设置的文件保存路径必须要存在，负责启动不成功。
 
 3. 启动
 
@@ -144,7 +142,7 @@ tar -xvf FastDFS_v5.08.tar.gz
 ​	
 2.  启动类添加
 			
-	```java
+	```
 	@Import(FdfsClientConfig.class)
 	```
 	
