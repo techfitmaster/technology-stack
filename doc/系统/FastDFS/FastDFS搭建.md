@@ -245,9 +245,7 @@ wagger测试，返回路径，则成功，现在是不能直接访问图片，�
 
 ## 5.2 安装Nignx
 1. 进入Nginx所在目录，解压
-	```
-	tar -xvf nginx-1.10.0.tar.gz
-	```
+	`tar -xvf nginx-1.10.0.tar.gz`
 	
 2. 配置
 
