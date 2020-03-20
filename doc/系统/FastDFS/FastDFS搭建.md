@@ -138,13 +138,13 @@ tar -xvf FastDFS_v5.08.tar.gz
 		    jmx-enabled: false
 ```
 
-
-​	
 2.  启动类添加
 			
 	```
 	@Import(FdfsClientConfig.class)
 	```
+	
+	
 	
 	![在这里插入图片描述](https://img-blog.csdnimg.cn/20190423174324999.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzI1MTIx,size_16,color_FFFFFF,t_70)
 
