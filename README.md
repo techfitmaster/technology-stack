@@ -18,5 +18,5 @@
 - **系统**
   - **FastDFS**
 - **工具**
-  - [Git](https://github.com/huzhengxing/technology-stack/blob/master/工具/Git.md)
+  - [Git](https://github.com/huzhengxing/technology-stack/blob/master/doc/%E5%B7%A5%E5%85%B7/Git/Git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4.md)
 
