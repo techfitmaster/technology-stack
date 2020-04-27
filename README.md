@@ -1,26 +1,19 @@
 
 #  技术栈(Technology Stack)
 
-- **Java**
-- **Spring**
-- **Mybatis**
-- **[数据结构](https://github.com/huzhengxing/data-structure)**
-- **算法**
-- **MySql**
-- **Redis**
+- **[Java](#Java)**
+- **[Spring](#Spring)**
+- **[Mybatis](#Mybatis)**
+- **[数据结构](#数据结构)**
+- **[算法](#算法)**
+- **[MySql](#Mysql)**
+- **[Redis](#Redis)**
 - **[设计模式](#设计模式)**
-- **[Git](https://github.com/huzhengxing/technology-stack/blob/master/doc/%E5%B7%A5%E5%85%B7/Git/Git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4.md)**
-
-- **Vim**
-- **Docker**
+- **[Git](#Git)**
+- **[Vim](#Vim)**
+- **[Docker](#Docker)**
 
 # Java
-
-## 基本知识
-
-## 基本知识
-
-
 
 
 
@@ -47,13 +40,9 @@
 **创建型**
 
 - [ ] 抽象工厂模式(Abstract Factory)
-
 - [ ] 建造者模式(Builder)
-
 - [ ] 工厂方法模式(Factory Method)
-
 - [ ] 原型模式(Prototype)
-
 - [ ] 单例模式(Singleton
 
   
