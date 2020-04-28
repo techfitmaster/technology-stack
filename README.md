@@ -1,5 +1,5 @@
-
 #  技术栈(Technology Stack)
+
 
 - **[Java](#Java)**
 - **[Spring](#Spring)**
@@ -12,13 +12,17 @@
 - **[Git](#Git)**
 - **[Vim](#Vim)**
 - **[Docker](#Docker)**
+- **[Unix命令行](#Unix命令行)**
 
 # Java
+
+- 学习Java语言
+- 常用的类
+- 容器
 
 
 
 # Spring
-
 
 
 
@@ -73,25 +77,23 @@
 - [ ] 模板方法模式(Template Method)
 - [ ] 访问者模式(Visitor)
 
-
-
 # Mysql
-
-
 
 # Redis
 
-
-
 # Vim
-
-
 
 # Git
 
-
+- [ ] [操作命令及应用场景]()
 
 # Docker
+
+# Unix命令行
+
+- [ ] curl
+
+  
 
 
 
