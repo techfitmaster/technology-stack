@@ -12,7 +12,7 @@
 
 注意查看Centos系统多少位，如果是32位就选择x86的。
 
-![image-20200319093124879](/Users/Albert/Library/Application Support/typora-user-images/image-20200319093124879.png)
+![image-20200319093124879](https://tva1.sinaimg.cn/large/007S8ZIlly1ggan529zeyj31h40u0n7b.jpg)
 
 ### 2. 解压
 `tar -zxvf jdk-8u201-linux-x64.tar.gz`

@@ -1,0 +1,92 @@
+{
+    "title": "技术栈",
+    "author": "Albert",
+    "description": "select * from learn",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "技术栈": "https://www.huzhengxing.com"
+        }
+    },
+    "plugins": [
+        "hide-element",
+        "code",
+        "splitter",
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "github",
+        "anchor-navigation-ex",
+        "-sharing",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "github": {
+            "url": "https://github.com/huzhengxing"
+        },       
+        "anchor-navigation-ex": {
+            "showLevel": true,
+            "associatedWithSummary": false,
+            "printLog": false,
+            "multipleH1": true,
+            "mode": "float",
+            "showGoTop": true,
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy <a href='https://huzhengxing' target='_blank'>胡正兴</a> 2",
+            "modify_label": "修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "theme-default": {
+            "showLevel": true
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "google", "facebook", "weibo", "twitter",
+                "qq", "qzone", "linkedin", "pocket"
+            ]
+        }
+
+
+    }
+}
