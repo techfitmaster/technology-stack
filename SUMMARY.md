@@ -5,17 +5,17 @@
 ## 工具
 
 * Git
-    * [基本操作命令](Git/操作命令及引用场景.md)
+    * [基本操作命令](git/操作命令及引用场景.md)
 * Java
-    * [JDK环境配置](Java/java环境配置.md)
+    * [JDK环境配置](java/java环境配置.md)
 
 - Mysql
-  - [Mysql安装](Mysql/Mysql安装.md)
+  - [Mysql安装](mysql/Mysql安装.md)
 
 ## 系统
 
 - FastDFS
-  - [FastDFS+Springboot+Nginx](FastDFS/FastDFS搭建.md)
+  - [FastDFS+Springboot+Nginx](fastdfs/FastDFS搭建.md)
 - Linux
-  - [常用操作命令](Linux/常用操作命令.md)
+  - [常用操作命令](linux/常用操作命令.md)
 

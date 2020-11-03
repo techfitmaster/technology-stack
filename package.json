@@ -1,0 +1,20 @@
+{
+  "name": "technology-stack",
+  "version": "1.0.0",
+  "description": "-  Java基础入门 - Java web开发 - 框架封装核心基础 \t- 注解&反射API详解 \t- 注解之框架封装实战 - Java开发基础 \t- Java基础知识串讲 \t- Java常用框架与工具回顾 \t- Java开发能力必备",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huzhengxing/technology-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huzhengxing/technology-stack/issues"
+  },
+  "homepage": "https://github.com/huzhengxing/technology-stack#readme"
+}
